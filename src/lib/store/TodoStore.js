@@ -25,7 +25,7 @@ export const deleteTodo = (id) => {
 	});
 };
 
-export const toggleTodo = (id) => {
+export const toggleComplete = (id) => {
 	todos.update((currentTodos) => {
 		return currentTodos.map((todo) => {
 			if (todo.id === id) {
