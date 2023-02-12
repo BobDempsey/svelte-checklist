@@ -9,4 +9,6 @@
 			<TodoInput {todo} />
 		{/each}
 	</section>
+{:else}
+	<p class="text-lg font-semibold">Add a new todo to get started! 🤓</p>
 {/if}

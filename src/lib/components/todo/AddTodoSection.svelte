@@ -2,13 +2,27 @@
 	import { addTodo } from '../../store/TodoStore';
 </script>
 
-<section class="flex items-center justify-between">
-	<h3 class="text-3xl font-bold">Svelte Tailwind Todo List</h3>
+<section class="relative flex items-center justify-between">
+	<h3
+		class="-mt-4 -ml-2 max-w-[250px] bg-gradient-to-r from-primary to-secondary bg-clip-text text-4xl font-bold text-transparent sm:ml-1 sm:mt-0 sm:max-w-full"
+	>
+		Svelte Tailwind Todo List
+	</h3>
 
-	<button class="btn-primary btn gap-2" type="button" on:click={addTodo}>
-		Add Task
+	<!-- <h1
+		class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-3xl font-bold text-transparent"
+	>
+		Svelte Tailwind Todo List
+	</h1> -->
+
+	<button
+		class="btn-primary btn absolute -top-5 -right-5 sm:gap-2"
+		type="button"
+		on:click={addTodo}
+	>
+		<span class="hidden sm:block">Add Task</span>
 		<svg
-			class="h-5 w-5"
+			class="h-6 w-6 sm:h-5 sm:w-5"
 			fill="none"
 			stroke="currentColor"
 			stroke-width="2"

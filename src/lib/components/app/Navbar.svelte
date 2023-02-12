@@ -1,3 +1,7 @@
+<script>
+	import ThemeSwitcher from './ThemeSwitcher.svelte';
+</script>
+
 <div class="navbar bg-base-200">
 	<!-- brand -->
 	<div class="flex-1">
@@ -16,25 +20,12 @@
 					d="M19.5 12h-15m0 0 6.75 6.75M4.5 12l6.75-6.75"
 				/></svg
 			>
-			<span>Bob Dempsey</span>
+			<span class="sm:hidden">BD</span>
+			<span class="hidden sm:block">Bob Dempsey</span>
 		</a>
 	</div>
 	<!-- theme switcher -->
-	<div class="flex-none">
-		<ul class="menu menu-horizontal z-50 mr-4 px-1">
-			<li>
-				<button> Set Theme 🎨 </button>
-				<ul class="max-h-96 w-full overflow-y-scroll bg-base-100 p-2">
-					<form method="POST">
-						<li>
-							<button formaction="/?/setTheme&theme=dark">Dark</button>
-						</li>
-						<li>
-							<button formaction="/?/setTheme&theme=light">Light</button>
-						</li>
-					</form>
-				</ul>
-			</li>
-		</ul>
+	<div class="mr-4 flex-none">
+		<ThemeSwitcher />
 	</div>
 </div>
