@@ -6,7 +6,7 @@
 	<h3
 		class="-mt-4 -ml-2 max-w-[200px] bg-gradient-to-r from-primary to-secondary bg-clip-text text-4xl font-bold text-transparent sm:ml-1 sm:mt-0 sm:max-w-full"
 	>
-		Svelte Tailwind Todo List
+		SvelteKit Tailwind Todo List
 	</h3>
 
 	<button
