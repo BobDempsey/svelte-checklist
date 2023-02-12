@@ -4,7 +4,7 @@
 
 <section class="relative flex items-center justify-between">
 	<h3
-		class="-mt-4 -ml-2 max-w-[250px] bg-gradient-to-r from-primary to-secondary bg-clip-text text-4xl font-bold text-transparent sm:ml-1 sm:mt-0 sm:max-w-full"
+		class="-mt-4 -ml-2 max-w-[200px] bg-gradient-to-r from-primary to-secondary bg-clip-text text-4xl font-bold text-transparent sm:ml-1 sm:mt-0 sm:max-w-full"
 	>
 		Svelte Tailwind Todo List
 	</h3>
