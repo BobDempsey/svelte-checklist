@@ -8,6 +8,7 @@ export const todos = writable(data);
 
 todos.subscribe((value) => {
 	if (browser) {
+		value = value.filter((i) => i.text !== '');
 		localStorage.setItem('st-todo-list', JSON.stringify(value));
 	}
 });
@@ -40,7 +41,7 @@ export const editTodo = (id, text) => {
 	todos.update((currentTodos) => {
 		return currentTodos.map((todo) => {
 			if (todo.id === id) {
-				return { ...todo, text };
+				return { ...todo, text: text.trim() };
 			}
 			return todo;
 		});

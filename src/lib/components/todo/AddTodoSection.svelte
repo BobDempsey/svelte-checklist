@@ -1,11 +1,11 @@
 <script>
-	import { addTodo } from '../../../store/TodoStore';
+	import { addTodo } from '../../store/TodoStore';
 </script>
 
-<section class="flex justify-between">
-	<h3 class="text-xl font-bold ">Checklist</h3>
+<section class="flex items-center justify-between">
+	<h3 class="text-3xl font-bold">Svelte Tailwind Todo List</h3>
 
-	<button class="btn gap-2" type="button" on:click={addTodo}>
+	<button class="btn-primary btn gap-2" type="button" on:click={addTodo}>
 		Add Task
 		<svg
 			class="h-5 w-5"
