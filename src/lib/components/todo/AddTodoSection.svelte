@@ -9,12 +9,6 @@
 		Svelte Tailwind Todo List
 	</h3>
 
-	<!-- <h1
-		class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-3xl font-bold text-transparent"
-	>
-		Svelte Tailwind Todo List
-	</h1> -->
-
 	<button
 		class="btn-primary btn absolute -top-5 -right-5 sm:gap-2"
 		type="button"
