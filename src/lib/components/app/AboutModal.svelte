@@ -1,5 +1,5 @@
 <!-- The button(label) to open modal -->
-<label for="my-modal-4" class="btn-ghost btn-circle btn absolute bottom-5 right-5">
+<label for="my-modal-4" class="btn-ghost btn-sm btn-circle btn">
 	<svg
 		class="h-6 w-6"
 		fill="none"

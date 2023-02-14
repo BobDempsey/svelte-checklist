@@ -25,7 +25,7 @@
 		</a>
 	</div>
 	<!-- theme switcher -->
-	<div class="mr-4 flex-none">
+	<div class="mr-5 flex-none">
 		<ThemeSwitcher />
 	</div>
 </div>

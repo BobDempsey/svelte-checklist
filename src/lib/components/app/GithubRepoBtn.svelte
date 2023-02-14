@@ -2,7 +2,7 @@
 	href="https://github.com/BobDempsey/svelte-checklist"
 	rel="noreferrer"
 	target="_blank"
-	class="btn-ghost btn-circle btn absolute right-20 bottom-5"
+	class="btn-ghost btn-sm btn-circle btn"
 >
 	<svg
 		class="h-6 w-6"

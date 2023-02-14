@@ -1,4 +1,4 @@
-# SvelteKit Checklist ✅
+# SvelteKit Checklist w/Themes ✅
 
 A to-do app using SvelteKit, Tailwind CSS, Daisy UI, and local storage persistence. CI/CD and hosting on Vercel.
 
@@ -8,7 +8,7 @@ A to-do app using SvelteKit, Tailwind CSS, Daisy UI, and local storage persisten
 
 - [Tailwind CSS](https://tailwindcss.com/) is a popular utility-first CSS framework
 
-- [Daisy UI](https://daisyui.com/) is a plugin for easily customizable Tailwind CSS components
+- [Daisy UI](https://daisyui.com/) is a plugin for easily customizable Tailwind CSS components and themes
 
 - [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) is a web storage feature that allows you to store data locally in the user's browser
 
