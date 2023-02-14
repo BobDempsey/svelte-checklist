@@ -1,40 +1,31 @@
-# create-svelte
+# SvelteKit Checklist ✅
 
-https://www.youtube.com/watch?v=3MCpUaboF18&list=WL&index=10&ab_channel=Skillthrive
+A to-do app using SvelteKit, Tailwind CSS, and local storage persistence.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+<br/>
 
-## Creating a project
+- SvelteKit is a framework for building web applications
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Tailwind CSS is a popular utility-first CSS framework
+
+- Local storage is a web storage feature that allows you to store data locally in the user's browser
+
+<br/>
+
+- [Live Demo](https://kit.svelte.dev/docs/adapters)
+- [Contact Me](https://bobdempsey83.com/contact)
+- [My Website](https://bobdempsey83.com)
+- [Video Tutorial](https://www.youtube.com/watch?v=3MCpUaboF18&list=WL&index=10&ab_channel=Skillthrive)
+
+<br/>
+
+bobdempsey83@gmail.com
+
+<br/>
 
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+To run this app locally:
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
+npm i
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
