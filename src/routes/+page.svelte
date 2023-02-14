@@ -2,10 +2,12 @@
 	import AddTodoSection from '../lib/components/todo/AddTodoSection.svelte';
 	import TodoSection from '../lib/components/todo/TodoSection.svelte';
 	import ProgressSection from '../lib/components/progress/ProgressSection.svelte';
+	import AboutModal from '../lib/components/app/AboutModal.svelte';
+	import GithubRepoBtn from '../lib/components/app/GithubRepoBtn.svelte';
 </script>
 
 <div
-	class="selection:color-secondary selection:color-primary min-h-screen bg-base-200 p-0  py-12 md:px-8 md:py-24"
+	class="selection:color-secondary selection:color-primary relative min-h-screen bg-base-200 p-0 py-12 md:px-8 md:py-24"
 >
 	<div
 		class="mx-6 max-w-5xl rounded-2xl bg-gradient-to-r from-primary via-info to-secondary p-1 md:mx-auto"
@@ -18,4 +20,6 @@
 			</div>
 		</div>
 	</div>
+	<GithubRepoBtn />
+	<AboutModal />
 </div>
