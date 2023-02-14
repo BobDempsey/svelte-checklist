@@ -1,30 +1,31 @@
 # SvelteKit Checklist ✅
 
-A to-do app using SvelteKit, Tailwind CSS, and local storage persistence.
+A to-do app using SvelteKit, Tailwind CSS, Daisy UI, and local storage persistence. CI/CD and hosting on Vercel.
 
 <br/>
 
-- SvelteKit is a framework for building web applications
+- [SvelteKit](https://kit.svelte.dev/) is a framework for building web applications
 
-- Tailwind CSS is a popular utility-first CSS framework
+- [Tailwind CSS](https://tailwindcss.com/) is a popular utility-first CSS framework
 
-- Local storage is a web storage feature that allows you to store data locally in the user's browser
+- [Daisy UI](https://daisyui.com/) is a plugin for easily customizable Tailwind CSS components
+
+- [Local Storage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage) is a web storage feature that allows you to store data locally in the user's browser
+
+- [Vercel](https://daisyui.com/) is a next generation, developer experienced focused hosting platform with built in CI/CD
 
 <br/>
 
-- [Live Demo](https://kit.svelte.dev/docs/adapters)
+- [Live Demo](https://svelte-checklist.vercel.app/)
+- [My Email](mailto:bobdempsey83@gmail.com)
 - [Contact Me](https://bobdempsey83.com/contact)
 - [My Website](https://bobdempsey83.com)
 - [Video Tutorial](https://www.youtube.com/watch?v=3MCpUaboF18&list=WL&index=10&ab_channel=Skillthrive)
 
 <br/>
 
-bobdempsey83@gmail.com
-
-<br/>
-
 ```bash
-To run this app locally:
+# To run this app locally:
 
 npm i
 npm run dev
